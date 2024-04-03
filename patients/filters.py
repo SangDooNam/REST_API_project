@@ -13,4 +13,5 @@ class PatientFilter(django_filters.FilterSet):
             'weight': ['gte', 'lte'],
             'department': ['exact'],
             'eyecolor': ['iexact'],
+            'bloodgroup': ['iexact'],
         }
